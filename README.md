@@ -3,7 +3,7 @@ Bubble, Selection, Insertion, Shell, Merge, Quick and Radix Sort and their possi
 
 To view the java files, follow the path: Soting-algorithms / src / algorthims
 
-1. Bubble Sort:\n
+1. Bubble Sort: <br />
    One of the most easy and basic sorting alogrithms. Every element is compared with its adjacent element and swapped accordingly.
    It is an in-place algorithm. 
    Time complexity: O(n^2) Worst case occurs when array is reverse sorted.
