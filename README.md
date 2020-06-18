@@ -5,20 +5,20 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
 
 1. Bubble Sort: <br />
    One of the most easy and basic sorting alogrithms. Every element is compared with its adjacent element and swapped accordingly.
-   It is an in-place algorithm. 
-   Time complexity: O(n^2) Worst case occurs when array is reverse sorted.
+   It is an in-place algorithm. <br />
+   Time complexity: O(n^2) Worst case occurs when array is reverse sorted.<br />
  
 2. Selection Sort:<br />
    The array divides into sorted and unsorted portions. In every iteration, the smallest element is found from the unsorted portion.
-   It is then swapped with the first index of unsorted portion.
-   It is an in-place algorithm.
-   Time Complexity: O(n^2) quadratic complexity, but involves less swapping than bubble sort.
+   It is then swapped with the first index of unsorted portion.<br />
+   It is an in-place algorithm.<br />
+   Time Complexity: O(n^2) quadratic complexity, but involves less swapping than bubble sort.<br />
    
 3. Insertion Sort:<br />
    The array divides into sorted and unsorted portions. The first element of the unsorted potions is chosen and then inserted at the correct       
-   position in the sorted portion.
-   It is an in-place algorithm. 
-   Time Complexity: O(n^2) quadratic complexity, and involves a lot of shifting of elements.
+   position in the sorted portion.<br />
+   It is an in-place algorithm. <br />
+   Time Complexity: O(n^2) quadratic complexity, and involves a lot of shifting of elements.<br />
    
 4. Shell Sort: <br />
    -It is a variation of insertion sort with an aim to reduce the shifting of elements.
