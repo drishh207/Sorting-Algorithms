@@ -24,11 +24,11 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
    -It is a variation of insertion sort with an aim to reduce the shifting of elements.
    The value to be choosen from thw unsorted portion is choosen with the largest gap and as the algorithm progresses, the gap reduces and
    finally becomes 1. The algo does some preliminary work(using gap values greater than 1) and then becomes insertion sort. By the time, it
-   becomes insertion sort, the array is moslty sorted, so no shifting is needed.
-   -One of the most efficient gap sequence is the knuth sequence. But for simplicity, gap = array.length / 2 is considered.
-   -It is an in-place algorithm.
-   -Time complexity depends on the gap values chosen. But worst case is O(n^2).
-   -Better performance than insertion sort.
+   becomes insertion sort, the array is moslty sorted, so no shifting is needed.<br />
+   -One of the most efficient gap sequence is the knuth sequence. But for simplicity, gap = array.length / 2 is considered.<br />
+   -It is an in-place algorithm.<br />
+   -Time complexity depends on the gap values chosen. But worst case is O(n^2).<br />
+   -Better performance than insertion sort.<br />
    
  
    
