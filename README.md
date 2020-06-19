@@ -15,8 +15,7 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
    Time Complexity: O(n^2) quadratic complexity, but involves less swapping than bubble sort.<br />
    
 3. Insertion Sort:<br />
-   The array divides into sorted and unsorted portions. The first element of the unsorted potions is chosen and then inserted at the correct       
-   position in the sorted portion.<br />
+   The array divides into sorted and unsorted portions. The first element of the unsorted potions is chosen and then inserted at the correct position in the sorted portion.<br />
    It is an in-place algorithm. <br />
    Time Complexity: O(n^2) quadratic complexity, and involves a lot of shifting of elements.<br />
    
