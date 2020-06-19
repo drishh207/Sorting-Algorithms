@@ -22,7 +22,7 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
    
 4. Shell Sort: <br />
   -It is a variation of insertion sort with an aim to reduce the shifting of elements.
-   The value to be choosen from thw unsorted portion is choosen with the largest gap and as the algorithm progresses, the gap reduces and
+   The value to be choosen from the unsorted portion is choosen with the largest gap and as the algorithm progresses, the gap reduces and
    finally becomes 1. The algo does some preliminary work(using gap values greater than 1) and then becomes insertion sort. By the time, it
    becomes insertion sort, the array is mostly sorted, so no shifting is needed.<br />
   -One of the most efficient gap sequence is the knuth sequence. But for simplicity, gap = array.length / 2 is considered.<br />
@@ -34,8 +34,8 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
 5. Merge Sort: <br />
   -It is a divide and conquer algorithm.<br />
   -It has 2 phases: <br />
-         1. Splitting: Dividing the array till we get 1 element array.<br />
-         2. Merging: Merging these elements in the same order as they were divided in a soted manner.<br />
+   &nbsp;1. Splitting: Dividing the array till we get 1 element array.<br />
+   &nbsp;2. Merging: Merging these elements in the same order as they were divided in a soted manner.<br />
   -Time Complexity: O(nlogn) It takes log(n+1) steps to divide the array and linear time O(n) to merge the 2 halves.<br />
   -It is not an in-place algorithm.<br />
   
