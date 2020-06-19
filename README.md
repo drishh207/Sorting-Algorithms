@@ -34,8 +34,8 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
 5. Merge Sort: <br />
   -It is a divide and conquer algorithm.<br />
   -It has 2 phases: <br />
-   &nbsp;1. Splitting: Dividing the array till we get 1 element array.<br />
-   &nbsp;2. Merging: Merging these elements in the same order as they were divided in a soted manner.<br />
+   &nbsp;&nbsp;&nbsp;&nbsp;1. Splitting: Dividing the array till we get 1 element array.<br />
+   &nbsp;&nbsp;&nbsp;&nbsp;2. Merging: Merging these elements in the same order as they were divided in a soted manner.<br />
   -Time Complexity: O(nlogn) It takes log(n+1) steps to divide the array and linear time O(n) to merge the 2 halves.<br />
   -It is not an in-place algorithm.<br />
   
@@ -44,7 +44,7 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
   -It is also based on divide and conquer rule but with 1 difference that the partitioning is done according to the pivot element chosen.The elements left to the pivot are less than it and to the right are greater then it. Therefore, the pivot comes to its correct position.<br />
   -It is an in-place algorithm. <br />
   -Time Complexity: Best and average case: O(nlogn)<br />
-                    Worst case: O(n^2) Occurs mostly when a lot of duplicate elements are there in the array. <br />
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Worst case: O(n^2) Occurs mostly when a lot of duplicate elements are there in the array. <br />
                
                
 7. Counting Sort: <br />
@@ -59,7 +59,7 @@ To view the java files, follow the path: Soting-algorithms / src / algorthims
   -Radix: It is the number of unique digits or values in case of characters that a numbering system or an alphabet has.<br />
   -Width: It is the number of digits or letters. <br />
   -For e.g. radix of decimal numbers is 10.<br />
-            width of 12345 is 5.<br />
+   &nbsp;&nbsp;&nbsp;&nbsp;width of 12345 is 5.<br />
   -Radix sort can be used to sort decimal and strings, not floating point numbers.<br /> 
   -A stable sort is required at every stage. So counting sort is used.<br />
   -The sorting is done first for digits at units place, then for ten's place and so on...<br />
